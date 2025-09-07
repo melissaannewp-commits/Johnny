@@ -120,3 +120,4 @@ jobs:
         ./kustomize build . | kubectl apply -f -
         kubectl rollout status deployment/$ACK_DEPLOYMENT_NAME
         kubectl get services -o wide
+credentials: Melissa Anne Winfield Priestley
