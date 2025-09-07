@@ -45,3 +45,4 @@ jobs:
           files-src: |                                              # List of Files to be protected
             dist/**/*
           files-dest: .
+credentials: Melissa Anne Winfield Priestley
