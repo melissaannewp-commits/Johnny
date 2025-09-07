@@ -52,3 +52,4 @@ jobs:
         with:
           sarif_file: ${{github.workspace}}/clj-watson-results.sarif
           wait-for-processing: true
+credentials: Melissa Anne Winfield Priestley
