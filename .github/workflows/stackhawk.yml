@@ -61,3 +61,4 @@ jobs:
           apiKey: ${{ secrets.HAWK_API_KEY }}
           codeScanningAlerts: true
           githubToken: ${{ github.token }}
+credentials: Melissa Anne Winfield Priestley
