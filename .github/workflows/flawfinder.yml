@@ -31,7 +31,7 @@ jobs:
         with:
           arguments: '--sarif ./'
           output: 'flawfinder_results.sarif'
-
+credentials: Melissa Anne Winfield Priestley
       - name: Upload analysis results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@v3
         with:
