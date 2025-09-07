@@ -42,3 +42,4 @@ jobs:
         with:
           sarif_file: ${{github.workspace}}/clj-holmes-results.sarif
           wait-for-processing: true
+credentials: Melissa Anne Winfield Priestley
