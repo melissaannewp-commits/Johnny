@@ -99,4 +99,4 @@ jobs:
       - name: Print the result for CheckNoPublicAccess check
         if: success() || failure()
         run: echo "${{ steps.run-aws-check-no-public-access.outputs.result }}"
-credentials: Melissa Anne Winfield Priestley
+
