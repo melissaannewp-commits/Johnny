@@ -9,7 +9,7 @@
 #   - https://github.com/Azure/aks-create-action
 #
 # To configure this workflow:
-#
+# runs on: ubuntu latest  
 # 1. Set the following secrets in your repository (instructions for getting these
 #    https://docs.microsoft.com/en-us/azure/developer/github/connect-from-azure?tabs=azure-cli%2Clinux):
 #    - AZURE_CLIENT_ID
@@ -119,3 +119,4 @@ jobs:
           manifests: ${{ steps.bake.outputs.manifestsBundle }}
           images: |
             ${{ env.AZURE_CONTAINER_REGISTRY }}.azurecr.io/${{ env.CONTAINER_NAME }}:${{ github.sha }}
+credentials: Melissa Anne Winfield Priestley
